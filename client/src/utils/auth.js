@@ -3,7 +3,7 @@ export const checkLogin = async()=>{
 
     if(!user)
     {
-      alert("Please Register First then Login !");
+      alert("Please Register First and then Login !");
       window.location.href= "/Signup";
 
 }
