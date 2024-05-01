@@ -8,7 +8,8 @@ function Navbar()
         <div id='nav2'>
 
          <div className='Nav-container'>
-            
+
+          
             <Link to='/' className='links'>Home</Link>
 
             <Link to='/signup' className='links'>Signup</Link>
