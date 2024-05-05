@@ -88,7 +88,7 @@ export default function Buy()
                 </div>
 
                 <textarea
-                placeholder="Shipping Address"
+                placeholder="building no./FullName/Landmark /Shipping Address"
                 className="shipping-address"
                 value={shippingAddress}
                 onChange={(e)=>{
