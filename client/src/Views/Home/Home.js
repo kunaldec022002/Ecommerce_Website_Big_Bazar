@@ -5,7 +5,6 @@ import Navbar from "../../Components/Navbar/Navbar.js";
 import axios from 'axios';
 import {checkLogin} from "../../utils/auth";
 import ProductCard from "../../Components/ProductCard/ProductCard.js";
-import Footer from "../../Components/Footer/Footer.js";
 
 
 function Home(){
@@ -43,7 +42,7 @@ function Home(){
                     }
                 </div>   
 
-              <Footer/>
+        
                 
 
         
