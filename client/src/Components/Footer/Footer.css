@@ -1,0 +1,15 @@
+.footer
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color:#5a3232;
+
+ 
+}
+
+.footer-head
+{
+  color: #fff;
+}
