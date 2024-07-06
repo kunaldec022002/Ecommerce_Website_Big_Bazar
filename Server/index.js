@@ -28,8 +28,6 @@ const connectMongoDB = async()=>
 connectMongoDB();
 
 
-
-
 app.post('/product', async(req,res)=>{
 
     const {name,price,description,image}=req.body;
