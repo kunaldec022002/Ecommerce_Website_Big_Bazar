@@ -87,6 +87,8 @@ export default function Buy()
 
                 </div>
 
+              
+
                 <textarea
                 placeholder="building no./Name/Shipping Address"
                 className="shipping-address"
