@@ -53,7 +53,6 @@ function MyOrders(){
             
 
             </div>
-            <button className="back-home-btn"><Link to ='/'>Home</Link></button>
             
         </div>
     )
