@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import { Link } from 'react-router-dom';
 import brandImg from './brand-img.png';
 
@@ -14,7 +14,7 @@ function Navbar()
 
             <input type='text' className='input-field' placeholder='Serach Product'/>
 
-            <img src={brandImg} className='brand-img'/>
+            <img src={brandImg} className='brand-img' alt='img'/>
 
             <Link to='/' className='links'>Home</Link>
 

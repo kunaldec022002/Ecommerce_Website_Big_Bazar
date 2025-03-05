@@ -8,10 +8,10 @@
     background-color: #fff;
     width: fit-content;
     margin: 20px auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
     padding: 20px 40px;
     border-radius: 15px;
-    border: 2px solid black;
+    
 }
 
 .input-label

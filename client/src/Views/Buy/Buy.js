@@ -70,7 +70,7 @@ export default function Buy()
 
             <div className="buy-container">
 
-              <img src={product.image} className="buy-product-image"/>  
+              <img src={product.image} className="buy-product-image" alt="brand"/>  
 
               <div>
 
@@ -81,9 +81,9 @@ export default function Buy()
 
                 <div className="quantity-container">
 
-                  <img className="quantity-btn" src={Imgdec} onClick={decreaseQuantity}/>
+                  <img className="quantity-btn" src={Imgdec} onClick={decreaseQuantity} alt="dec"/>
                   <span className="quantity-text">{quantity}</span>
-                  <img className="quantity-btn" src={Imginc} onClick={increaseQuantity}/>
+                  <img className="quantity-btn" src={Imginc} onClick={increaseQuantity} alt="dec"/>
 
                 </div>
 
