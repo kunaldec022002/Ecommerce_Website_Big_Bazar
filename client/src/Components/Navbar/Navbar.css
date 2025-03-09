@@ -1,28 +1,6 @@
-.Nav-container
-{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: right;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0,0,0.7);
-    padding: 10px;
-  
+.main-nav{
+  background-color:#bdb2b1;
 }
-
-.links
-{
-    margin: 10px;
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-   
-   
-}
-.links:hover{
-  color:purple ;
-}
-
 #nav2
 {
   position: sticky;
@@ -36,12 +14,43 @@
   bottom: 5px;
 }
 
-.input-field
+#input-field
 {
   width: 500px;
   text-align: center;
-  margin-right: 30px;
-  height: 30px;
+  
+}
+
+/* other css */
+
+
+
+.navbar-brand
+{
+    font-family: fantasy;
+    margin-left: 5px;
+}
+
+
+
+.btn 
+{
+    margin: 7px;
+    color: #000000;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.nav-link
+{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.brand-img
+{
+    height: 45px;
+    width: 60px;
 }
 
 

@@ -7,8 +7,8 @@ import Signup from './Views/Signup/Signup';
 import Login from './Views/Login/Login';
 import Buy from './Views/Buy/Buy';
 import MyOrders from './Views/MyOrders/MyOrders';
-//import "bootstrap/dist/css/bootstrap.min.css";
-//import "bootstrap/dist/js/bootstrap.bundle.min";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
