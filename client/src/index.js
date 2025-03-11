@@ -9,6 +9,7 @@ import Buy from './Views/Buy/Buy';
 import MyOrders from './Views/MyOrders/MyOrders';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import Contact from './Views/Contact/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -16,6 +17,11 @@ const router = createBrowserRouter([
   {
   "path":"/",
   "element":<Home/>
+  },
+
+  {
+    "path":"/contact",
+    "element":<Contact/>
   },
 
   {

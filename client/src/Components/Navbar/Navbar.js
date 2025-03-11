@@ -44,7 +44,7 @@ function Navbar() {
                 </Link>
               </li>
               <li class="nav-item">
-                <Link to="/smartphone" class="nav-link">
+                <Link to="/contact" class="nav-link">
                   Contact
                 </Link>
               </li>
