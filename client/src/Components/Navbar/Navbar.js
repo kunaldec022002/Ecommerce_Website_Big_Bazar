@@ -33,11 +33,7 @@ function Navbar() {
                   Home
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link to="/laptop" class="nav-link">
-                 Services
-                </Link>
-              </li>
+             
               <li class="nav-item">
                 <Link to="/lifestyle" class="nav-link">
                   About
