@@ -2,8 +2,11 @@ import { Link } from "react-router-dom";
 import brandImg from "./brand-img.png";
 
 import "./Navbar.css";
+import { useState } from "react";
 
 function Navbar() {
+
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   return (
     <div id="nav2">
       <nav class="navbar navbar-expand-lg main-nav" id="nav-container">
@@ -34,25 +37,19 @@ function Navbar() {
                 </Link>
               </li>
              
-              <li class="nav-item">
-                <Link to="/lifestyle" class="nav-link">
-                  About
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link to="/contact" class="nav-link">
-                  Contact
-                </Link>
-              </li>
+             
             </ul>
-            <input placeholder="search product"className="form-control" id="input-field" />
+            
             <form class="d-flex" role="search">
-              <Link to="/signup" className="btn signup btn btn-success">
-                Signup
-              </Link>
-              <Link to="/login" className="btn login btn btn-primary">
-                login
-              </Link>
+              {!isLoggedIn && (
+                <>
+                  <Link to="/signup" className="btn signup btn btn-success">
+                    Signup
+                  </Link>
+                 
+                </>
+              )}
+              
             </form>
           </div>
         </div>
