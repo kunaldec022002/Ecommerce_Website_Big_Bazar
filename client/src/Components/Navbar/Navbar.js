@@ -9,14 +9,14 @@ function Navbar() {
   
   return (
     <div id="nav2">
-      <nav class="navbar navbar-expand-lg main-nav" id="nav-container">
-        <div class="container-fluid">
+      <nav className="navbar navbar-expand-lg main-nav" id="nav-container">
+        <div className="container-fluid">
           <img src={brandImg} className="brand-img" alt="navimg" />
-          <Link to="/" class="navbar-brand">
+          <Link to="/" className="navbar-brand">
            Big_Bazar
           </Link>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarScroll"
@@ -24,13 +24,13 @@ function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse link-container"
+            className="collapse navbar-collapse link-container"
             id="navbarScroll"
           >
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+            <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
               {/* <li class="nav-item">
                 <Link to="/" class="nav-link active" aria-current="page">
                   Home
